@@ -3,7 +3,7 @@ import requests
 # Adicione quantas URLs quiser dentro dos colchetes, separadas por vírgula
 URLS_FONTES = [
     "http://168.205.55.2:8000/playlist.m3u8",
-    "https://outra_lista_aqui.com/lista.m3u",
+    "http://189.73.8.73:8000/playlist.m3u8",
     "https://terceira_lista.net/futebol.m3u"
 ]
 
