@@ -1,0 +1,32 @@
+name: Atualizador Diario
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Roda todo dia à meia-noite (Horário UTC)
+  workflow_dispatch:      # Botão para você rodar manualmente quando quiser
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar Requests
+        run: pip install requests
+
+      - name: Executar Script
+        run: python atualizar.py
+
+      - name: Salvar Mudanças
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add playlist_atualizada.m3u
+          git commit -m "Update playlist: $(date)" || echo "Sem mudanças"
+          git push
