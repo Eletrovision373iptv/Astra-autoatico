@@ -1,39 +1,31 @@
 import requests
 
-# Adicione quantas URLs quiser dentro dos colchetes, separadas por vírgula
+# Suas 3 fontes atualizadas
 URLS_FONTES = [
     "http://168.205.55.2:8000/playlist.m3u8",
     "http://189.73.8.73:8000/playlist.m3u8",
     "http://177.126.18.20:8000/playlist.m3u8"
 ]
 
-def baixar_e_unir():
-    playlist_final = ["#EXTM3U\n"] # Cabeçalho obrigatório
-    
-    header = {'User-Agent': 'Mozilla/5.0'}
+def atualizar_lista():
+    final_m3u = ["#EXTM3U\n"]
+    headers = {'User-Agent': 'Mozilla/5.0'}
 
     for url in URLS_FONTES:
         try:
-            print(f"Baixando: {url}")
-            response = requests.get(url, headers=header, timeout=30)
-            
-            if response.status_code == 200:
-                linhas = response.text.splitlines()
-                # Pula a primeira linha se for #EXTM3U para não repetir no meio do arquivo
+            r = requests.get(url, headers=headers, timeout=15)
+            if r.status_code == 200:
+                linhas = r.text.splitlines()
+                # Pula o cabeçalho para não duplicar
                 if linhas and "#EXTM3U" in linhas[0]:
                     linhas = linhas[1:]
-                
-                playlist_final.extend(linhas)
-                playlist_final.append("\n") # Espaço entre listas
-                print(f"✅ Sucesso!")
-            else:
-                print(f"❌ Erro {response.status_code} ao baixar {url}")
-        except Exception as e:
-            print(f"❌ Falha crítica em {url}: {e}")
+                final_m3u.extend(linhas)
+                final_m3u.append("\n")
+        except:
+            print(f"Erro ao acessar {url}")
 
-    # Salva o resultado final unindo tudo
-    with open("playlist_atualizada.m3u", "w", encoding="utf-8") as f:
-        f.write("\n".join(playlist_final))
+    with open("lista_leve.m3u", "w", encoding="utf-8") as f:
+        f.write("\n".join(final_m3u))
 
 if __name__ == "__main__":
-    baixar_e_unir()
+    atualizar_lista()
