@@ -4,7 +4,7 @@ import requests
 URLS_FONTES = [
     "http://168.205.55.2:8000/playlist.m3u8",
     "http://189.73.8.73:8000/playlist.m3u8",
-    "https://terceira_lista.net/futebol.m3u"
+    "http://177.126.18.20:8000/playlist.m3u8"
 ]
 
 def baixar_e_unir():
