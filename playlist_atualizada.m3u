@@ -1,0 +1,147 @@
+#EXTM3U
+#EXTINF:-1 group-title="-",A&E HD
+http://168.205.55.2:8000/play/a08s/index.m3u8
+#EXTINF:-1 group-title="-",AMC HD
+http://168.205.55.2:8000/play/a07v/index.m3u8
+#EXTINF:-1 group-title="-",AXN HD
+http://168.205.55.2:8000/play/a08l/index.m3u8
+#EXTINF:-1 group-title="-",Animal Planet HD
+http://168.205.55.2:8000/play/a07s/index.m3u8
+#EXTINF:-1 group-title="-",Anos 2000
+http://168.205.55.2:8000/play/a09l/index.m3u8
+#EXTINF:-1 group-title="-",Band News HD
+http://168.205.55.2:8000/play/a09e/index.m3u8
+#EXTINF:-1 group-title="-",Band Sports HD
+http://168.205.55.2:8000/play/a081/index.m3u8
+#EXTINF:-1 group-title="-",Black / Hip Hop
+http://168.205.55.2:8000/play/a09o/index.m3u8
+#EXTINF:-1 group-title="-",CNN Brasil HD
+http://168.205.55.2:8000/play/a07q/index.m3u8
+#EXTINF:-1 group-title="-",Canal Sony HD - 6
+http://168.205.55.2:8000/play/a07i/index.m3u8
+#EXTINF:-1 group-title="-",Canal do Boi HD
+http://168.205.55.2:8000/play/a07k/index.m3u8
+#EXTINF:-1 group-title="-",Cartoon HD
+http://168.205.55.2:8000/play/a06p/index.m3u8
+#EXTINF:-1 group-title="-",Cartoonito HD
+http://168.205.55.2:8000/play/a099/index.m3u8
+#EXTINF:-1 group-title="-",Cinemax HD
+http://168.205.55.2:8000/play/a092/index.m3u8
+#EXTINF:-1 group-title="-",Combate HD
+http://168.205.55.2:8000/play/a06w/index.m3u8
+#EXTINF:-1 group-title="-",DUMDUM HD
+http://168.205.55.2:8000/play/a08r/index.m3u8
+#EXTINF:-1 group-title="-",Disc. Home & Health HD
+http://168.205.55.2:8000/play/a08j/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Channel HD - 6
+http://168.205.55.2:8000/play/a07l/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Kids HD - 6
+http://168.205.55.2:8000/play/a07j/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Science HD
+http://168.205.55.2:8000/play/a07y/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Theater HD
+http://168.205.55.2:8000/play/a07u/index.m3u8
+#EXTINF:-1 group-title="-",Discovery Turbo HD
+http://168.205.55.2:8000/play/a08q/index.m3u8
+#EXTINF:-1 group-title="-",Discovery World HD
+http://168.205.55.2:8000/play/a08m/index.m3u8
+#EXTINF:-1 group-title="-",E! HD - 5
+http://168.205.55.2:8000/play/a06o/index.m3u8
+#EXTINF:-1 group-title="-",ESPN 2 HD
+http://168.205.55.2:8000/play/a07f/index.m3u8
+#EXTINF:-1 group-title="-",ESPN 3 HD
+http://168.205.55.2:8000/play/a07g/index.m3u8
+#EXTINF:-1 group-title="-",ESPN 4 HD
+http://168.205.55.2:8000/play/a09g/index.m3u8
+#EXTINF:-1 group-title="-",ESPN 5 HD
+http://168.205.55.2:8000/play/a077/index.m3u8
+#EXTINF:-1 group-title="-",ESPN HD
+http://168.205.55.2:8000/play/a07p/index.m3u8
+#EXTINF:-1 group-title="-",Food Network HD
+http://168.205.55.2:8000/play/a08i/index.m3u8
+#EXTINF:-1 group-title="-",GloboNews HD
+http://168.205.55.2:8000/play/a08v/index.m3u8
+#EXTINF:-1 group-title="-",Globoplay Novelas HD
+http://168.205.55.2:8000/play/a08b/index.m3u8
+#EXTINF:-1 group-title="-",Gloob HD
+http://168.205.55.2:8000/play/a08c/index.m3u8
+#EXTINF:-1 group-title="-",Gloobinho HD
+http://168.205.55.2:8000/play/a09f/index.m3u8
+#EXTINF:-1 group-title="-",History 2 HD
+http://168.205.55.2:8000/play/a08p/index.m3u8
+#EXTINF:-1 group-title="-",ID - InvestigaĿªo Discovery HD
+http://168.205.55.2:8000/play/a08k/index.m3u8
+#EXTINF:-1 group-title="-",JP News HD
+http://168.205.55.2:8000/play/a07r/index.m3u8
+#EXTINF:-1 group-title="-",Lifetime HD
+http://168.205.55.2:8000/play/a08t/index.m3u8
+#EXTINF:-1 group-title="-",Megapix HD - 6
+http://168.205.55.2:8000/play/a08y/index.m3u8
+#EXTINF:-1 group-title="-",Modo Viagem HD
+http://168.205.55.2:8000/play/a080/index.m3u8
+#EXTINF:-1 group-title="-",Multishow HD
+http://168.205.55.2:8000/play/a076/index.m3u8
+#EXTINF:-1 group-title="-",Nick Jr HD
+http://168.205.55.2:8000/play/a098/index.m3u8
+#EXTINF:-1 group-title="-",Pop Hits
+http://168.205.55.2:8000/play/a09n/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 2 HD
+http://168.205.55.2:8000/play/a07d/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 3 HD
+http://168.205.55.2:8000/play/a08g/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 4 HD
+http://168.205.55.2:8000/play/a09b/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 5 HD
+http://168.205.55.2:8000/play/a08h/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 6 HD
+http://168.205.55.2:8000/play/a06u/index.m3u8
+#EXTINF:-1 group-title="-",Premiere 7 HD
+http://168.205.55.2:8000/play/a09c/index.m3u8
+#EXTINF:-1 group-title="-",Premiere Clubes HD
+http://168.205.55.2:8000/play/a093/index.m3u8
+#EXTINF:-1 group-title="-",Samba e Pagode
+http://168.205.55.2:8000/play/a09m/index.m3u8
+#EXTINF:-1 group-title="-",Space HD 
+http://168.205.55.2:8000/play/a084/index.m3u8
+#EXTINF:-1 group-title="-",Studio Universal HD - 5
+http://168.205.55.2:8000/play/a06t/index.m3u8
+#EXTINF:-1 group-title="-",TLC HD
+http://168.205.55.2:8000/play/a08o/index.m3u8
+#EXTINF:-1 group-title="-",TNT HD - 6
+http://168.205.55.2:8000/play/a083/index.m3u8
+#EXTINF:-1 group-title="-",TNT Novelas HD
+http://168.205.55.2:8000/play/a08e/index.m3u8
+#EXTINF:-1 group-title="-",TNT Series HD - 5
+http://168.205.55.2:8000/play/a06s/index.m3u8
+#EXTINF:-1 group-title="-",TV RÆ Tim Bum HD
+http://168.205.55.2:8000/play/a07h/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Action HD
+http://168.205.55.2:8000/play/a079/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Cult HD
+http://168.205.55.2:8000/play/a09a/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Fun HD
+http://168.205.55.2:8000/play/a07b/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Pipoca HD
+http://168.205.55.2:8000/play/a07c/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Premium HD
+http://168.205.55.2:8000/play/a078/index.m3u8
+#EXTINF:-1 group-title="-",Telecine Touch HD
+http://168.205.55.2:8000/play/a07a/index.m3u8
+#EXTINF:-1 group-title="-",The History Channel HD
+http://168.205.55.2:8000/play/a07m/index.m3u8
+#EXTINF:-1 group-title="-",USA HD - 5
+http://168.205.55.2:8000/play/a06r/index.m3u8
+#EXTINF:-1 group-title="-",Universal TV HD - 6
+http://168.205.55.2:8000/play/a08w/index.m3u8
+#EXTINF:-1 group-title="-",Warner Channel HD
+http://168.205.55.2:8000/play/a087/index.m3u8
+#EXTINF:-1 group-title="-",Woohoo HD
+http://168.205.55.2:8000/play/a07t/index.m3u8
+#EXTINF:-1 group-title="-",sportv 2 HD
+http://168.205.55.2:8000/play/a097/index.m3u8
+#EXTINF:-1 group-title="-",sportv 3 HD
+http://168.205.55.2:8000/play/a096/index.m3u8
+#EXTINF:-1 group-title="-",sportv HD
+http://168.205.55.2:8000/play/a07o/index.m3u8
+#EXTINF:-1 group-title="-",sportv HD Alternativo
+http://168.205.55.2:8000/play/a091/index.m3u8
